@@ -1,0 +1,31 @@
+/*Colocar en clase "whatsapp" :
+
+1)-. La propiedad position para que el boton quede fijo en un solo sitio.
+2)-. Las propiedades bottom y right en 40 px. 
+3)-. Tamaño de 60 x 60 px.
+4)-. La propiedad color con blanco.
+5).- Color de fondo #25d366.
+6)-. Hacerlo circular. 
+7)-. Alinear el texto al centro con size 30px. 
+8)-. Situarlo sobre todos los elementos.
+9)-. Aumente el brillo cuando el mouse pase por encima.
+*/
+
+.whatsapp {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  height: 60px;
+  width: 60px;
+  color: #ffffff;
+  background-color: #25d366;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 999;  
+}
+
+.whatsapp:hover {
+filter: brightness(1.75);
+}
+

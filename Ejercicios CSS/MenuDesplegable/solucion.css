@@ -1,0 +1,49 @@
+.nav {
+	position: absolute;
+  right: 5%;
+  width: 35%;
+  top: 20px;
+
+}
+
+ul, ol {
+	list-style: none;
+}
+
+.nav>li {
+	float: left;
+	width: 20%;
+}
+
+.nav li a {
+	padding: 8px 8px;
+	display: block;
+	text-decoration: none;
+	background-color: rgba(0, 0, 0, 0.014);
+	color: #fff;
+}
+
+.nav li a:hover {
+	background-color: #434343;
+}
+
+.nav li ul {
+	display: none;
+	position: absolute;
+	min-width: 100px;
+  margin: 0px;
+	padding: 0px;
+}
+
+.nav li:hover>ul {
+	display: block;
+}
+
+.nav li ul li {
+	position: relative;
+}
+
+.nav li ul li ul {
+	right: -100px;
+	top: 0px;
+}

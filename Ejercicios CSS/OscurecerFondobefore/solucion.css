@@ -1,0 +1,14 @@
+/*1)-. Aplicar el selector :before a la clase fondo.
+2)-. Setear el tamaño con width y height con 100%
+3)-. setear la posiion con top y left 0
+4)-. Colocar la propiedad	background-color: rgba(0,0,0,0.4) para dar el efecto oscuro.*/
+.fondo:before {
+	width: 100%;
+  height: 100%;
+	background-color: rgba(0,0,0,0.4);
+  top: 0;
+  left: 0;
+	content:'';
+  position: absolute;
+
+}

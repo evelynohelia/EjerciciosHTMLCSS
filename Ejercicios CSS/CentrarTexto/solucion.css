@@ -1,0 +1,14 @@
+/**
+En la clase contenedor:
+1)-. Utilizar la propiedad position junto con top para situar el div sobre el otro div.
+2)-. Utilizar la propiedad width con un 100% para ocupar todo el ancho.
+3)-. Utilizar la propiedad text-align para centrar el texto.
+4)-. Para que quede por debajo del centro, situar el top con 50%.
+*/
+.contenedor{
+    text-align:center;
+    top:50%;
+    position: absolute;
+    width: 100%;
+}
+

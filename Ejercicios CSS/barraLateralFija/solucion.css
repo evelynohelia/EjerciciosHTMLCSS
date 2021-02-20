@@ -1,0 +1,36 @@
+/*1)-. Trasladar cada li a largo del eje horizontal 95px, de tal manera que solo se vea el icono y no las letras.
+2)-. Al hacer hover a algun li, este debe trasladarse a su pocision original(0px).
+3)-. Para suavisar el cambio se aplica a li una transition de .5s.
+4)-. Colocar a cada li un color diferente al hacer hover (Usar el selector :nth-child):
+      FB        : #47b6f5
+      Twitter   : #fc210b
+      Google    : #ff8c4f
+      Pinterest : #4c0de0
+      
+*/
+.social ul li{
+  transform: translate(-95px, 0px);
+  transition: transform 2s;
+
+}
+
+.social ul li:hover{
+  transform: translate(0px, 0px);
+}
+
+.social ul li:nth-child(0):hover {
+  background-color: #47b6f5;
+
+}
+
+.social ul li:nth-child(1):hover {
+  background-color: #fc210b;
+}
+
+.social ul li:nth-child(2):hover {
+  background-color: #ff8c4f;
+}
+
+.social ul li:nth-child(3):hover {
+  background-color: #4c0de0;
+}

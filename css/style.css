@@ -1,0 +1,66 @@
+h1,h2{
+  text-align: center
+}
+h2{
+   text-decoration:underline;
+}
+
+
+
+section#cabecera3{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 2%;
+  text-align: justify;
+}
+
+
+
+#gallery{
+  text-align: center;
+}
+
+#cb3_contimg{
+  
+  border: 1px solid #000;
+  padding: 10px;
+  display: flex;
+  max-height: 200px;
+  
+
+}
+
+#cb3_contimg,#cb3_img{
+  border-radius: 10px;
+}
+
+table{
+      width: 100%;
+
+}
+section#table td,
+section#table th {
+    text-align: center;
+    padding: 5px;
+
+
+}
+
+section#table th {
+    background-color:gainsboro;
+}
+
+section#table tr:nth-child(odd){
+    background-color: #c3bbf6;
+}
+
+section#table tr:nth-child(even) {
+    background-color: #ffffff;
+}
+a:link {
+  color: blue;
+}
+
+a:hover {
+  text-decoration:none;
+}

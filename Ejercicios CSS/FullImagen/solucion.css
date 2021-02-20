@@ -1,0 +1,24 @@
+/*  1)-. La propiedad background para cargar la imagen.
+  2)-. La propiedad background-repeat para que no se repita la imagen.
+  3)-. La propiedad  background-position para que se centre la imagen.
+  4)-. Se coloca la propiedad height y width con un 100% para que ocupe todo el contenedor.
+  5)-. Se coloca la propiedad background-size para que la imagen cubra todo el div.
+  html y body :
+  1)-. Se coloca la propiedad height y width con un 100% para que ocupe toda la pantalla.
+  2)-. Se le quita los márgenes con la propiedad margin.
+
+*/
+html, body, .fondo{
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  
+
+}
+.fondo{
+  background-image: url("Interstellar.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  
+}

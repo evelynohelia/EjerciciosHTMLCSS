@@ -1,0 +1,39 @@
+.galleryimg {
+  background-image: url("../img/camera.jpg");
+  width: 175px;
+  height: 155px;
+  margin: 15px;
+  
+}
+
+#img1 {
+  background-position: -10px -5px;
+}
+
+#img2 {
+  background-position: -213px -5px;
+}
+
+#img3 {
+  background-position: -10px -200px;
+}
+
+#img4 {
+  background-position: -213px -200px;
+}
+
+#alt_text{
+  display: none;
+}
+section#gallery{
+  margin: 20px;
+}
+#contenedor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-top: 1px dotted gainsboro;
+  border-bottom: 1px dotted gainsboro;
+  justify-content: center;
+}
+

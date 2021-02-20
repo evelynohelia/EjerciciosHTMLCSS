@@ -1,0 +1,23 @@
+/*1)-. Aplicar background: #eee a todas las filas con total 10. 
+2)-. Aplicar background: rgb(209, 138, 138) a todas las filas con total 0.
+3)-. Aplicar background: rgb(151, 235, 118) a todas las filas con total 100
+4)-. Aplicar a la ultima fila 
+      * background: #333; 
+      * color: white;
+*/
+
+
+tr:nth-child(-n+3){
+  background: rgb(209, 138, 138) ;
+}
+
+tr:nth-child(2n+3){
+  background: #eee;
+}
+tr:nth-child(4n+4){
+  background: rgb(151, 235, 118);
+}
+tr:last-child{
+  background: #333; 
+  color: white; 
+}

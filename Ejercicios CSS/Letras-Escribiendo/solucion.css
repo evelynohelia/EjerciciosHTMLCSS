@@ -1,0 +1,28 @@
+/**
+Aplicar Typewriter Effect al texto de  h1.(ver REsultado.web)
+1)-. Hacer un @keyframes con nombre typing, que simule el cursor, este empezará y terminara con un border-color: transparent y en el 50% tendra un border-color: orange. 
+2)-. Hacer  @keyframes con nombre blink-caret, que simule que las letra se vayan tipeando, empecerá en width: 0 y terminará en width: 100% (esto hara que h1 aumente su width desde 0 a 100.
+3)-. Setear la propiedad animation en h1 y utilice:
+  * blink-caret con duracion de .5s se repita infinitamente en un solo paso.
+  * typing con duracion de 4s y que se realice en 44 pasos(cantidad de letras).*/
+
+  .typewriter h1 {
+  overflow: hidden; 
+  border-right: .15em solid orange; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+    typing 4s steps(44, end),
+    blink-caret  .5s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
